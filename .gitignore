@@ -1,0 +1,4 @@
+*.pyc
+*.svg
+*GoogleNews-vectors-negative300.bin
+*.bin

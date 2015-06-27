@@ -1,0 +1,370 @@
+DaysFromPresent	Date	Rank	Topic	SearchCount
+0	22-Jun	1	alex morgan	500,000
+0	22-Jun	2	Confederate_Flag	500,000
+0	22-Jun	3	Darryl Hamilton	200,000
+0	22-Jun	4	carter reynolds	200,000
+0	22-Jun	5	kettlebell	200,000
+0	22-Jun	6	Marc_Maron	100,000
+0	22-Jun	8	james horner	100,000
+0	22-Jun	9	nba draft	100,000
+0	22-Jun	10	bottled water recall	100,000
+0	22-Jun	11	Hope_Solo	100,000
+0	22-Jun	12	oliver hudson	100,000
+0	22-Jun	13	Tullian_Tchividjian	50,000
+0	22-Jun	14	Pete_Rose	50,000
+0	22-Jun	15	holly madison	50,000
+0	22-Jun	16	good for you selena gomez	50,000
+0	22-Jun	17	Hannibal	50,000
+0	22-Jun	18	Supreme_Court	50,000
+0	22-Jun	19	mississippi state flag	20,000
+0	22-Jun	20	larry hogan	20,000
+1	21-Jun	1	dustin johnson	1,000,000
+1	21-Jun	2	true detective	500,000
+1	21-Jun	3	Taylor_Swift	200,000
+1	21-Jun	4	jake lloyd	100,000
+1	21-Jun	5	meadow walker	50,000
+1	21-Jun	6	BattleBots	50,000
+1	21-Jun	8	the last ship	50,000
+1	21-Jun	9	Denise_Richards	50,000
+1	21-Jun	10	Ballers	50,000
+1	21-Jun	11	Rachel_McAdams	50,000
+1	21-Jun	12	Dwyane_Wade	50,000
+1	21-Jun	13	Taylor_Kitsch	50,000
+1	21-Jun	14	fathers day images	50,000
+1	21-Jun	15	colombia vs peru	20,000
+1	21-Jun	16	Poldark	20,000
+1	21-Jun	17	Lester_Holt	20,000
+2	20-Jun	1	father s day	5,000,000
+2	20-Jun	2	happy fathers day images	200,000
+2	20-Jun	3	Jordan_Spieth	200,000
+2	20-Jun	4	Summer_Solstice	200,000
+2	20-Jun	5	Summer_solstice	200,000
+2	20-Jun	7	fathers day cards	100,000
+2	20-Jun	9	bob barry jr	50,000
+2	20-Jun	10	Max_Scherzer	50,000
+2	20-Jun	11	friendship ny	50,000
+2	20-Jun	12	andre ward	20,000
+2	20-Jun	13	Neymar	20,000
+2	20-Jun	14	Rosamund_Pike	20,000
+3	19-Jun	1	happy fathers day	1,000,000
+3	19-Jun	2	inside out	1,000,000
+3	19-Jun	3	Kimbo_Slice	500,000
+3	19-Jun	4	Jon_Stewart	200,000
+3	19-Jun	5	jason day	200,000
+3	19-Jun	6	Adrien_Broner	200,000
+3	19-Jun	7	vertigo	100,000
+3	19-Jun	8	the wolfpack	100,000
+3	19-Jun	9	EDC	100,000
+3	19-Jun	10	stella maxwell	100,000
+3	19-Jun	12	warriors parade	50,000
+3	19-Jun	13	mexico vs ecuador	50,000
+3	19-Jun	14	Draymond_Green	50,000
+3	19-Jun	16	james brown	50,000
+3	19-Jun	17	Alex_Rodriguez	50,000
+3	19-Jun	18	Adam_Lambert	20,000
+3	18-Jun	19	Colin_Farrell	20,000
+4	18-Jun	1	clippers new logo	100,000
+4	18-Jun	2	Kimbo_Slice	100,000
+4	18-Jun	3	Juneteenth	100,000
+4	18-Jun	4	Ken_Shamrock	100,000
+4	18-Jun	5	Confederate_Flag	100,000
+4	18-Jun	6	Dope	100,000
+4	18-Jun	7	astronaut wives club	100,000
+4	18-Jun	9	Rhodesia	50,000
+4	18-Jun	10	rebecca van cleave	50,000
+4	18-Jun	11	Rob_Kardashian	50,000
+4	18-Jun	12	pga_tour	50,000
+4	18-Jun	15	Paulina_Gretzky	20,000
+4	18-Jun	16	Harriet_Tubman	20,000
+4	18-Jun	17	PAUL_MCCARTNEY	20,000
+4	18-Jun	18	Pablo_Sandoval	20,000
+4	18-Jun	19	Brandi_Glanville	20,000
+5	17-Jun	1	charleston shooting	5,000,000
+5	17-Jun	3	us open	1,000,000
+5	17-Jun	5	brian williams	200,000
+5	17-Jun	6	Ramadan	200,000
+5	17-Jun	8	Madonna	100,000
+5	17-Jun	9	colombia vs brazil	100,000
+5	17-Jun	10	alexander hamilton	100,000
+5	17-Jun	11	jr smith	50,000
+5	17-Jun	12	Charo	50,000
+5	17-Jun	13	Bitcoin	50,000
+5	17-Jun	14	Tyra_Banks	50,000
+5	17-Jun	15	Dwyane_Wade	50,000
+5	17-Jun	16	Charlize_Theron	50,000
+5	17-Jun	17	jimmy lee	50,000
+5	17-Jun	18	father s day gifts	50,000
+5	17-Jun	19	Matt_Bomer	50,000
+5	17-Jun	20	Arturo_Vidal	50,000
+6	16-Jun	1	golden state warriors	2,000,000
+6	16-Jun	2	Donald_Trump	1,000,000
+6	16-Jun	3	Cavs Vs Warriors	500,000
+6	16-Jun	4	alex morgan	200,000
+6	16-Jun	5	Tupac	200,000
+6	16-Jun	6	Molly Shattuck	200,000
+6	16-Jun	7	St Louis Cardinals	100,000
+6	16-Jun	8	Klay_Thompson	100,000
+6	16-Jun	9	Berkeley balcony collapse	100,000
+6	16-Jun	10	Nier	100,000
+6	16-Jun	11	Marlana VanHoose	50,000
+6	16-Jun	12	Ed Sheeran	50,000
+6	16-Jun	14	Kirk_Kerkorian	50,000
+6	16-Jun	15	Dominican_Republic	50,000
+6	16-Jun	16	Ivanka_Trump	50,000
+6	16-Jun	17	2Pac	50,000
+6	16-Jun	18	Blaze_Starr	20,000
+6	16-Jun	19	John Hurt	20,000
+6	16-Jun	20	Princess Diaries 3	20,000
+7	15-Jun	1	Rachel_Dolezal	1,000,000
+7	15-Jun	2	Chicago_Blackhawks	1,000,000
+7	15-Jun	3	Final Fantasy 7 Remake	200,000
+7	15-Jun	4	Houston Weather	200,000
+7	15-Jun	5	Shenmue 3	200,000
+7	15-Jun	6	Tropical Storm Bill	200,000
+7	15-Jun	7	Alicia Cargile	200,000
+7	15-Jun	8	The Last Guardian	200,000
+7	15-Jun	9	Xbox One Elite Controller	200,000
+7	15-Jun	10	married at first sight	200,000
+7	15-Jun	11	Nintendo E3	100,000
+7	15-Jun	13	Kingdom Hearts 3	100,000
+7	15-Jun	14	Chambers Bay	100,000
+7	15-Jun	15	Star_Wars_Battlefront	100,000
+7	15-Jun	16	Mexico Vs Chile	100,000
+7	15-Jun	17	Mass Effect Andromeda	50,000
+7	15-Jun	18	Magna_Carta	50,000
+7	15-Jun	19	Bobbi_Kristina	50,000
+7	15-Jun	20	Father S Day Gifts	50,000
+8	14-Jun	2	jon snow	1,000,000
+8	14-Jun	3	Fallout_Shelter	1,000,000
+8	14-Jun	4	oak island nc	500,000
+8	14-Jun	7	Jeb_Bush	200,000
+8	14-Jun	8	Lena_Headey	200,000
+8	14-Jun	9	Andre_Iguodala	200,000
+8	14-Jun	10	flag day	100,000
+8	14-Jun	11	Lil_Wayne	100,000
+8	14-Jun	12	john snow	50,000
+8	14-Jun	14	one direction	50,000
+8	14-Jun	15	high school musical 4	50,000
+8	14-Jun	16	puerto rican day parade	50,000
+8	14-Jun	17	Super_Smash_Bros	50,000
+8	14-Jun	18	wwe network	50,000
+8	14-Jun	20	colombia vs venezuela	20,000
+9	13-Jun	3	nba finals game 5	200,000
+9	13-Jun	4	college world series	100,000
+9	13-Jun	7	Hillary_Clinton	50,000
+9	13-Jun	8	John_Stamos	50,000
+9	13-Jun	10	Farrah_Abraham	20,000
+9	13-Jun	11	Deontay_Wilder	20,000
+10	12-Jun	1	women s world cup	500,000
+10	12-Jun	3	ruby rose	200,000
+10	12-Jun	4	Hope_Solo	100,000
+10	12-Jun	5	alex morgan	100,000
+10	12-Jun	6	Dave_Grohl	100,000
+10	12-Jun	7	lebron penis	100,000
+10	12-Jun	8	jurassic world review	50,000
+10	12-Jun	9	Lark_Voorhies	50,000
+10	12-Jun	13	nick robinson actor	50,000
+10	12-Jun	14	Taryn_Manning	50,000
+10	12-Jun	15	jim ed brown	20,000
+10	12-Jun	18	lego jurassic world	20,000
+11	11-Jun	1	christopher lee	2,000,000
+11	11-Jun	2	Rachel_Dolezal	1,000,000
+11	11-Jun	3	LeBron_James	1,000,000
+11	11-Jun	4	Dusty_Rhodes	1,000,000
+11	11-Jun	5	orange is the new black	500,000
+11	11-Jun	7	lebron james penis	200,000
+11	11-Jun	8	Rue_McClanahan	100,000
+11	11-Jun	9	randy howard	100,000
+11	11-Jun	11	Ornette_Coleman	50,000
+11	11-Jun	12	Evan_Mathis	50,000
+11	11-Jun	13	calvin harris	50,000
+11	11-Jun	14	oculus rift	50,000
+11	11-Jun	16	Ian_McKellen	50,000
+12	10-Jun	1	jurassic world	1,000,000
+12	10-Jun	3	Carrie_Underwood	200,000
+12	10-Jun	4	usa vs germany	200,000
+12	10-Jun	5	ellen pao	100,000
+12	10-Jun	8	holly madison	50,000
+12	10-Jun	9	Andre_Iguodala	50,000
+12	10-Jun	10	today show	20,000
+12	10-Jun	11	Raven_Symone	20,000
+12	10-Jun	12	Joyce_Carol_Oates	20,000
+13	9-Jun	1	NBA_Finals	5,000,000
+13	9-Jun	2	Miley_Cyrus	200,000
+13	9-Jun	3	married at first sight	200,000
+13	9-Jun	6	walmart fight	50,000
+13	9-Jun	7	Johnny_Depp	50,000
+13	9-Jun	8	Jon_Bernthal	50,000
+13	9-Jun	9	fifa world cup	20,000
+13	9-Jun	10	chris evans	20,000
+13	9-Jun	11	jim brown	20,000
+13	9-Jun	12	mlb draft tracker	20,000
+13	9-Jun	13	espn nba	20,000
+14	8-Jun	1	alex morgan	1,000,000
+14	8-Jun	4	MLB_Draft	500,000
+14	8-Jun	5	national bestfriend day	200,000
+14	8-Jun	6	mary ellen trainor	200,000
+14	8-Jun	7	tim curry	200,000
+14	8-Jun	10	best friends day	100,000
+14	8-Jun	11	fifa women s world cup	100,000
+14	8-Jun	12	the martian	100,000
+14	8-Jun	13	Sydney_Leroux	100,000
+14	8-Jun	14	prison escape	100,000
+14	8-Jun	17	Brandon_Spikes	50,000
+14	8-Jun	18	Uwe_Boll	50,000
+14	8-Jun	19	nhl playoffs	50,000
+14	8-Jun	20	Kate_Moss	50,000
+15	7-Jun	1	women s world cup	5,000,000
+15	7-Jun	2	NBA_Finals	2,000,000
+15	7-Jun	3	tony awards	500,000
+15	7-Jun	5	Hope_Solo	200,000
+15	7-Jun	6	Stan_Wawrinka	200,000
+15	7-Jun	7	Cleveland_Cavaliers	200,000
+15	7-Jun	11	ayesha curry	100,000
+15	7-Jun	12	anthony riley	100,000
+15	7-Jun	13	clinton correctional facility	100,000
+15	7-Jun	14	Chita_Rivera	50,000
+15	7-Jun	15	ribbon worm	50,000
+15	7-Jun	17	Gilmore_Girls	50,000
+15	7-Jun	19	Tommy_Tune	20,000
+15	7-Jun	20	cavs vs warriors game 2	20,000
+16	6-Jun	1	women s world cup	2,000,000
+16	6-Jun	2	american pharoah	1,000,000
+16	6-Jun	3	Beau_Biden	500,000
+16	6-Jun	4	d day	200,000
+16	6-Jun	5	Red_Sox	200,000
+16	6-Jun	6	Serena_Williams	200,000
+16	6-Jun	7	Miguel_Cotto	100,000
+16	6-Jun	8	Tiger_Woods	50,000
+16	6-Jun	9	World_Cup	50,000
+16	6-Jun	11	nbc sports	50,000
+16	6-Jun	12	ben bishop	50,000
+16	6-Jun	13	the judge	50,000
+16	6-Jun	14	princess charlotte	50,000
+16	6-Jun	16	fox sports	20,000
+16	6-Jun	17	dan henderson	20,000
+17	5-Jun	1	Belmont_Stakes	5,000,000
+17	5-Jun	2	Champions_League	1,000,000
+17	5-Jun	3	Stephen_Curry	200,000
+17	5-Jun	6	insidious 3	200,000
+17	5-Jun	7	Brittney_Griner	200,000
+17	5-Jun	8	nba playoffs	100,000
+17	5-Jun	9	Jurassic_Park	100,000
+17	5-Jun	10	Lena_Dunham	100,000
+17	5-Jun	13	hunter biden	50,000
+17	5-Jun	16	governors ball	50,000
+17	5-Jun	17	college board	50,000
+17	5-Jun	18	usa vs netherlands	50,000
+17	5-Jun	20	anthony davis	50,000
+18	4-Jun	1	NBA_Finals	2,000,000
+18	4-Jun	2	national donut day	1,000,000
+18	4-Jun	3	Beau_Biden	200,000
+18	4-Jun	5	chris brown	200,000
+18	4-Jun	8	Serena_Williams	100,000
+18	4-Jun	9	brian wilson	100,000
+18	4-Jun	10	ayesha curry	100,000
+18	4-Jun	12	joe_biden	50,000
+18	4-Jun	14	dong lei	50,000
+18	4-Jun	16	RICK_PERRY	50,000
+18	4-Jun	18	comedians in cars getting coffee	50,000
+18	4-Jun	19	Angelina_Jolie	50,000
+19	3-Jun	1	Southwest_Airlines	500,000
+19	3-Jun	3	fallout 4 release date	200,000
+19	3-Jun	4	Tampa_Bay_Lightning	200,000
+19	3-Jun	6	dave goldberg	200,000
+19	3-Jun	9	stephanie march	50,000
+19	3-Jun	10	james harden	50,000
+19	3-Jun	11	Pamela_Geller	50,000
+19	3-Jun	12	fallout 3	50,000
+19	3-Jun	13	lil wayne glory	20,000
+20	2-Jun	1	fallout 4	1,000,000
+20	2-Jun	2	Sepp_Blatter	500,000
+20	2-Jun	3	iggy azalea	200,000
+20	2-Jun	4	arthur ashe award	200,000
+20	2-Jun	6	strawberry moon	200,000
+20	2-Jun	7	Pretty_Little_Liars	200,000
+20	2-Jun	10	abc family	50,000
+20	2-Jun	14	joe dirt 2	50,000
+20	2-Jun	15	Chrissy_Teigen	20,000
+20	2-Jun	16	Adrian_Peterson	20,000
+21	1-Jun	2	Kylie_Jenner	200,000
+21	1-Jun	3	tracy morgan	200,000
+21	1-Jun	7	the whispers	100,000
+21	1-Jun	8	joey gallo	100,000
+21	1-Jun	10	weather nyc	50,000
+21	1-Jun	11	Lindsey_Graham	50,000
+21	1-Jun	12	yahoo finance	50,000
+21	1-Jun	13	Fred_Hoiberg	50,000
+21	1-Jun	14	american horror story	50,000
+21	1-Jun	15	Social_Security	50,000
+21	1-Jun	16	Khloe_Kardashian	50,000
+21	1-Jun	18	khan academy	50,000
+21	1-Jun	19	Shia_LaBeouf	50,000
+21	1-Jun	20	Serena_Williams	50,000
+22	31-May	4	kim kardashian pregnant	200,000
+22	31-May	6	Patriot_Act	100,000
+22	31-May	7	Enrique_Iglesias	100,000
+22	31-May	8	Amandla_Stenberg	100,000
+22	31-May	9	strawberry moon	100,000
+22	31-May	10	erica stoll	50,000
+22	31-May	11	betsy palmer	50,000
+22	31-May	12	Roger_Federer	50,000
+22	31-May	15	john kerry	50,000
+22	31-May	16	Elizabeth_Smart	20,000
+22	31-May	17	auburn softball	20,000
+22	31-May	18	Alvin_Gentry	20,000
+22	31-May	19	Johnny_Manziel	20,000
+23	30-May	1	Beau_Biden	1,000,000
+23	30-May	2	Marilyn_Monroe	200,000
+23	30-May	3	Belmont_Stakes	100,000
+23	30-May	4	Jurassic_Park	100,000
+23	30-May	7	Harry_Potter	50,000
+23	30-May	8	Serena_Williams	50,000
+23	30-May	9	iggy azalea	50,000
+23	30-May	10	Martin_O_Malley	50,000
+23	30-May	11	japan earthquake	20,000
+23	30-May	12	alex morgan	20,000
+24	29-May	4	chance the rapper surf	100,000
+24	29-May	5	Alexandra_Daddario	100,000
+24	29-May	6	Amir_Khan	20,000
+25	28-May	1	Stephen_Curry	500,000
+25	28-May	3	Houston_Rockets	100,000
+25	28-May	4	Dennis_Hastert	100,000
+25	28-May	5	Charles_Manson	100,000
+25	28-May	6	Reynaldo_Rey	100,000
+25	28-May	8	google io	50,000
+25	28-May	9	Klay_Thompson	50,000
+25	28-May	10	kung fury	50,000
+25	28-May	11	google photos	50,000
+25	28-May	12	rita ora	50,000
+25	28-May	13	effective power text	50,000
+25	28-May	15	january jones	50,000
+25	28-May	16	Tom_Thibodeau	50,000
+25	28-May	17	Ben_Affleck	50,000
+25	28-May	18	national burger day	20,000
+26	27-May	1	Cleveland_Cavaliers	2,000,000
+26	27-May	2	San_Andreas	200,000
+26	27-May	3	earthquake today	100,000
+26	27-May	4	Rick_Santorum	50,000
+26	27-May	6	Verne_Troyer	50,000
+26	27-May	7	steve kerr	20,000
+26	27-May	8	Kyrie_Irving	20,000
+26	27-May	9	Bristol_Palin	20,000
+26	27-May	10	california earthquake	20,000
+26	27-May	11	tracy morgan	20,000
+26	27-May	12	melissa mccarthy	20,000
+26	27-May	13	Juan_Uribe	20,000
+27	26-May	1	golden state warriors	2,000,000
+27	26-May	4	Stephen_Curry	500,000
+27	26-May	5	kevin love	200,000
+27	26-May	6	golden state warriors	200,000
+27	26-May	7	effective power	200,000
+27	26-May	11	houston flooding	100,000
+27	26-May	12	sam s club	100,000
+27	26-May	13	Chicago_Blackhawks	100,000
+27	26-May	14	effective power text	100,000
+27	26-May	16	point break	100,000
+27	26-May	17	jurassic world	100,000
+27	26-May	18	rita ora	50,000
+27	26-May	19	american eagle	50,000
+27	26-May	20	Charter_Communications	50,000

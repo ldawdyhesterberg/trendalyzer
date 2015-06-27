@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Trendalyzer.me</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js">
+    var topcats = {{ topcats }};
+    var category = {{ category }};
+    var topsims = {{ topsims}};
+  	var image_url = {{ image_url }}; 
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" class="active" href="/input">Trendalyzer</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/about">About</a></li>
+            <li><a href="/slides">Slides</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+<br><br>
+	<center>
+  <div class="container">
+    <div class="starter-template">
+        <h2>Results for {{ category }}</h2>
+        <p></p>
+    </div>
+
+    <div class="container">
+      <div class="starter-template">
+        <p class="lead">Top matching trending words for {{category}}:<br></p>
+      </div>
+
+<!-- 
+		<div class="container">
+			<p class="results">{{ category }}</p>
+		</div>
+ -->
+	<div id="results_content" style="position: relative">
+		<div id="left" style="width:50%; float:left">
+			<br><br>
+				<table class="table table-hover" id="output_table" style="width: 80%; vertical-align=middle; font-size:18px">
+				<tr><th>Rank</th><th>Trending Topic</th></tr>
+				<tr><td>1</td><td>{{ topcats[0] }}</td></tr>
+				<tr><td>2</td><td>{{ topcats[1] }}</td></tr>
+				<tr><td>3</td><td>{{ topcats[2] }}</td></tr>
+				<tr><td>4</td><td>{{ topcats[3] }}</td></tr>
+				<tr><td>5</td><td>{{ topcats[4] }}</td></tr>
+				</table>
+		</div>
+		<div id="right" style="width:50%; float:right">
+		<p><figure>
+      <embed type="image/svg+xml" src={{ image_url }} />
+    </figure>
+    </p>
+		</div>
+</div>
+
+ 
+
+
+
+
+     </div><!-- /.container -->
+
+    <div class="container">
+      <div class="starter-template">
+        <h2 class="lead">Try another category:<br></h2>
+      </div>
+    <div class = "container">
+			
+      <form  action="/output" method="GET">
+        <div class="form-group">
+          <label for="Category">Category:</label>
+          <input type="text" id="Category" name='Category' placeholder="e.g. ">
+        </div>
+        <div>
+          <button type="submit" class="btn btn-default btn-lg">Find my trending topics!</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+
+
+  </div> <!-- /.container-->
+
+</center>
+
+
+      <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+      <script src="static/js/bootstrap.min.js"></script>
+
+
+     </div><!-- /.container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="static/js/bootstrap.min.js"></script>
+  </body>
+</html>
