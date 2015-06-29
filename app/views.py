@@ -26,7 +26,7 @@ logging.debug("Loaded full model")
 
 
 trend_words = []
-with open("./app/data/g_trends_6-23.txt", "r") as f:
+with open("./app/data/google_trends.txt", "r") as f:
     for line in f:
         trend_words.append(line)
 f.close()
@@ -66,8 +66,8 @@ def trend_output():
   		topcats = toplist[0]
   		topsims = toplist[1]
   		category = string.capwords(category)
-  		horizontalbar_chart = pygal.HorizontalBar(title = category, style=custom_style, title_font_size=40, x_title_font_size=24, x_title='Similarity', legend_box_size=28, legend_font_size=28, legend_at_bottom=True, truncate_legend=14, label_font_size=16)
-  		horizontalbar_chart.add(topcats[4],topsims[3])
+  		horizontalbar_chart = pygal.HorizontalBar(title = category, style=custom_style, title_font_size=40, x_title_font_size=24, x_title='Similarity', legend_box_size=28, legend_font_size=28, legend_at_bottom=True, truncate_legend=12, label_font_size=22, x_label_font_size=18)
+  		horizontalbar_chart.add(topcats[4],topsims[4])
   		horizontalbar_chart.add(topcats[3],topsims[3])
   		horizontalbar_chart.add(topcats[2], topsims[2])
   		horizontalbar_chart.add(topcats[1], topsims[1])
@@ -87,8 +87,8 @@ def trend_output():
 			topcats = toplist[0]
 			topsims = toplist[1]
 			category = string.capitalize(category)
-			horizontalbar_chart = pygal.HorizontalBar(title = category, style=custom_style, title_font_size=40, x_title_font_size=24, x_title='Similarity', legend_box_size=28, legend_font_size=28, legend_at_bottom=True, truncate_legend=14, label_font_size=16)
-			horizontalbar_chart.add(topcats[4],topsims[3])
+			horizontalbar_chart = pygal.HorizontalBar(title = category, style=custom_style, title_font_size=40, x_title_font_size=24, x_title='Similarity', legend_box_size=28, legend_font_size=28, legend_at_bottom=True, truncate_legend=12, label_font_size=22, x_label_font_size=18)
+			horizontalbar_chart.add(topcats[4],topsims[4])
 			horizontalbar_chart.add(topcats[3],topsims[3])
 			horizontalbar_chart.add(topcats[2], topsims[2])
 			horizontalbar_chart.add(topcats[1], topsims[1])

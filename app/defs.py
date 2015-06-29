@@ -30,20 +30,21 @@ def get_weighted_sim(cat, trend, weight, model):
     if ' ' in cat:
         cat_join = '_'.join(cat.split(' '))
         cat_lower_join = '_'.join(cat.lower().split(' '))
-        cat_lower = cat.split(' ')
-        if cat_join in model:
-            sim = cosine_similarity(trend_add, model[cat_join])
-        elif cat_lower_join in model:
+        cat_lower = cat.lower().split(' ')
+        cat_split = cat.split()
+        if cat_lower_join in model:
             sim = cosine_similarity(trend_add, model[cat_lower_join])
+        elif cat_join in model:
+            sim = cosine_similarity(trend_add, model[cat_join])
         elif all(x in model for x in cat_lower):
             cat_add = array_sum(cat_lower, model)
             sim = cosine_similarity(trend_add, cat_add)
-        elif all(x in model for x in cat):
-            cat_add = array_sum(cat, model)
+        elif all(x in model for x in cat_split):
+            cat_add = array_sum(cat_split, model)
             sim = cosine_similarity(trend_add, cat_add)
     else:
         sim = cosine_similarity(trend_add, model[cat.lower()])
-    weighted_sim = sim * 1/(1+0.03*int(weight))
+    weighted_sim = sim * 1/(1+0.001*int(weight))
     return weighted_sim
 
 
