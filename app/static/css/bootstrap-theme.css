@@ -263,6 +263,7 @@
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .active > a {
+<<<<<<< HEAD
   background-image: -webkit-linear-gradient(top, #1d5a9f 0%, #1d5a9f 100%);
   background-image:      -o-linear-gradient(top, #1d5a9f 0%, #1d5a9f 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#1d5a9f), to(#1d5a9f));

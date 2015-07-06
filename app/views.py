@@ -41,6 +41,8 @@ for item in trend_words:
 
 
 
+<<<<<<< HEAD
+>>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
 
 @app.route('/')
 @app.route('/input')
@@ -61,13 +63,17 @@ def trend_output():
   		topcats = toplist[0]
   		topsims = toplist[1]
   		category = string.capwords(category)
+<<<<<<< HEAD
   		horizontalbar_chart = pygal.HorizontalBar(title = category, style=custom_style, title_font_size=40, x_title_font_size=24, x_title='Similarity', legend_box_size=28, legend_font_size=28, legend_at_bottom=True, truncate_legend=12, label_font_size=22, x_label_font_size=18, major_label_font_size=22, show_x_guides=False, x_labels_major_count=5, show_minor_x_labels=False)
+>>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
   		horizontalbar_chart.add(topcats[4],topsims[4])
   		horizontalbar_chart.add(topcats[3],topsims[3])
   		horizontalbar_chart.add(topcats[2], topsims[2])
   		horizontalbar_chart.add(topcats[1], topsims[1])
   		horizontalbar_chart.add(topcats[0], topsims[0])
+<<<<<<< HEAD
   		horizontalbar_chart.value_formatter = lambda x: "%.2f" % x
+>>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
   		horizontalbar_chart.render_to_file('./app/static/images/%s.svg' % '_'.join(category.split()))
   		image_url = "/static/images/" + '_'.join(category.split()) + ".svg"
   		return render_template("output.html", topcats=topcats, topsims=topsims, category=category, image_url=image_url)
@@ -83,13 +89,17 @@ def trend_output():
 			topcats = toplist[0]
 			topsims = toplist[1]
 			category = string.capitalize(category)
+<<<<<<< HEAD
 			horizontalbar_chart = pygal.HorizontalBar(title = category, style=custom_style, title_font_size=40, x_title_font_size=24, x_title='Similarity', legend_box_size=28, legend_font_size=28, legend_at_bottom=True,  truncate_legend=12, label_font_size=22,  major_label_font_size=22, x_label_font_size=18, show_x_guides=False, x_labels_major_count=5, show_minor_x_labels=False)
+>>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
 			horizontalbar_chart.add(topcats[4],topsims[4])
 			horizontalbar_chart.add(topcats[3],topsims[3])
 			horizontalbar_chart.add(topcats[2], topsims[2])
 			horizontalbar_chart.add(topcats[1], topsims[1])
 			horizontalbar_chart.add(topcats[0], topsims[0])
+<<<<<<< HEAD
 			horizontalbar_chart.value_formatter = lambda x: "%.2f" % x
+>>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
 			horizontalbar_chart.render_to_file('./app/static/images/%s.svg' %category)
 			image_url = "/static/images/" + category + ".svg"
 			return render_template("output.html", topcats=topcats, topsims=topsims, category=category, image_url=image_url)
@@ -103,3 +113,5 @@ def slides():
 def about():
     return render_template("about.html")
 
+<<<<<<< HEAD
+>>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
