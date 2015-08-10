@@ -60,7 +60,6 @@ def trend_output():
   		toplist = extract_points(find_weighted_best_trends(category, trend_words_cleaned, model))
   		topcats = toplist[0]
   		topsims = toplist[1]
-  		topurls = toplist[2]
   		category = string.capwords(category)
   		horizontalbar_chart = pygal.HorizontalBar(title = category, style=custom_style, title_font_size=40, x_title_font_size=24, x_title='Similarity', legend_box_size=28, legend_font_size=28, legend_at_bottom=True, truncate_legend=12, label_font_size=22, x_label_font_size=18, major_label_font_size=22, show_x_guides=False, x_labels_major_count=5, show_minor_x_labels=False)
   		horizontalbar_chart.add(topcats[4],topsims[4])
@@ -80,21 +79,20 @@ def trend_output():
   		error = "Sorry, category input not found. Please try another category."
   		return render_template("input.html", error=error)
   	else:
-			toplist = extract_points(find_weighted_best_trends(category, trend_words_cleaned, model))
-			topcats = toplist[0]
-			topsims = toplist[1]
-			topurls = toplist[2]
-			category = string.capitalize(category)
-			horizontalbar_chart = pygal.HorizontalBar(title = category, style=custom_style, title_font_size=40, x_title_font_size=24, x_title='Similarity', legend_box_size=28, legend_font_size=28, legend_at_bottom=True,  truncate_legend=12, label_font_size=22,  major_label_font_size=22, x_label_font_size=18, show_x_guides=False, x_labels_major_count=5, show_minor_x_labels=False)
-			horizontalbar_chart.add(topcats[4],topsims[4])
-			horizontalbar_chart.add(topcats[3],topsims[3])
-			horizontalbar_chart.add(topcats[2], topsims[2])
-			horizontalbar_chart.add(topcats[1], topsims[1])
-			horizontalbar_chart.add(topcats[0], topsims[0])
-			horizontalbar_chart.value_formatter = lambda x: "%.2f" % x
-			horizontalbar_chart.render_to_file('./app/static/images/%s.svg' %category)
-			image_url = "/static/images/" + category + ".svg"
-			return render_template("output.html", topcats=topcats, topsims=topsims, topurls=topurls, category=category, image_url=image_url)
+		toplist = extract_points(find_weighted_best_trends(category, trend_words_cleaned, model))
+		topcats = toplist[0]
+		topsims = toplist[1]
+		category = string.capitalize(category)
+		horizontalbar_chart = pygal.HorizontalBar(title = category, style=custom_style, title_font_size=40, x_title_font_size=24, x_title='Similarity', legend_box_size=28, legend_font_size=28, legend_at_bottom=True,  truncate_legend=12, label_font_size=22,  major_label_font_size=22, x_label_font_size=18, show_x_guides=False, x_labels_major_count=5, show_minor_x_labels=False)
+		horizontalbar_chart.add(topcats[4],topsims[4])
+		horizontalbar_chart.add(topcats[3],topsims[3])
+		horizontalbar_chart.add(topcats[2], topsims[2])
+		horizontalbar_chart.add(topcats[1], topsims[1])
+		horizontalbar_chart.add(topcats[0], topsims[0])
+		horizontalbar_chart.value_formatter = lambda x: "%.2f" % x
+		horizontalbar_chart.render_to_file('./app/static/images/%s.svg' %category)
+		image_url = "/static/images/" + category + ".svg"
+		return render_template("output.html", topcats=topcats, topsims=topsims,  category=category, image_url=image_url)
 
 
 @app.route('/slides')

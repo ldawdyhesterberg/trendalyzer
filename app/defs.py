@@ -44,7 +44,7 @@ def get_weighted_sim(cat, trend, weight, model):
             sim = cosine_similarity(trend_add, cat_add)
     else:
         sim = cosine_similarity(trend_add, model[cat.lower()])
-    weighted_sim = sim * 1/(1+0.001*int(weight))
+    weighted_sim = sim * 1/(1+0.003*int(weight))
     return weighted_sim
 
 
@@ -71,10 +71,8 @@ def pretty_print(vec_list):
 def extract_points(best_list):
     cats = []
     sims = []
-    urls = []
     for i in best_list:
         cats.append(i[0])
         sims.append(i[1])
-        urls.append("https://www.google.com/search?q=" + i[0].replace(" ", "+"))
-    return cats, sims, urls
+    return cats, sims
 
