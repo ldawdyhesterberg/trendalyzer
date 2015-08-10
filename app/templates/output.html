@@ -13,13 +13,12 @@
     <title>Trendalyzer.me</title>
 
     <!-- Bootstrap core CSS -->
-<<<<<<< HEAD
+
     <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="static/css/starter-template.css" rel="stylesheet">
->>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
-
+    
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js">
@@ -27,6 +26,7 @@
     var category = {{ category }};
     var topsims = {{ topsims}};
   	var image_url = {{ image_url }}; 
+  	var topurls = {{ topurls }};
     </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -59,7 +59,6 @@
       </div>
     </div>
 
-<<<<<<< HEAD
 
 	<center>
   <div class="container">
@@ -68,31 +67,26 @@
         <p class="lead">Top matching trending words for {{category}}:</p>
 
 
->>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
 	<div id="results_content" style="position: relative">
 		<div id="left" style="width:50%; float:left">
 			<br><br>
 				<table class="table table-hover" id="output_table" style="width: 80%; vertical-align=middle; font-size:18px">
 				<tr><th>Rank</th><th>Trending Topic</th></tr>
-				<tr><td>1</td><td>{{ topcats[0] }}</td></tr>
-				<tr><td>2</td><td>{{ topcats[1] }}</td></tr>
-				<tr><td>3</td><td>{{ topcats[2] }}</td></tr>
-				<tr><td>4</td><td>{{ topcats[3] }}</td></tr>
-				<tr><td>5</td><td>{{ topcats[4] }}</td></tr>
+				<tr><td>1</td><td><a href="{{ topurls[0] }}" target="_blank">{{ topcats[0] }}</a></td></tr>
+				<tr><td>2</td><td><a href="{{ topurls[1] }}" target="_blank">{{ topcats[1] }}</a></td></tr>
+				<tr><td>3</td><td><a href="{{ topurls[2] }}" target="_blank">{{ topcats[2] }}</a></td></tr>
+				<tr><td>4</td><td><a href="{{ topurls[3] }}" target="_blank">{{ topcats[3] }}</a></td></tr>
+				<tr><td>5</td><td><a href="{{ topurls[4] }}" target="_blank">{{ topcats[4] }}</a></td></tr>
 				</table>
 		</div>
 		<div id="right" style="width:50%; float:right">
-<<<<<<< HEAD
 		<br>
->>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
 		<p><figure>
       <embed type="image/svg+xml" src={{ image_url }} />
     </figure>
     </p>
 		</div>
-<<<<<<< HEAD
 	</div>
->>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
 
  
 
@@ -100,13 +94,11 @@
 
 
      </div><!-- /.container -->
-<<<<<<< HEAD
      </div><!-- /.container -->
 
     <div class="container">
         <h2 class="lead">Try another category:<br></h2>
 	
->>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
       <form  action="/output" method="GET">
         <div class="form-group">
           <label for="Category">Category:</label>
@@ -116,8 +108,6 @@
           <button type="submit" class="btn btn-default btn-lg">Find my trending topics!</button>
         </div>
       </form>
-<<<<<<< HEAD
->>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
 
@@ -133,10 +123,9 @@
 
      </div><!-- /.container -->
 
-<<<<<<< HEAD
+
 <br>
 <br>
->>>>>>> 22be319d053eab3e4a616a27ccd848e32c120553
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

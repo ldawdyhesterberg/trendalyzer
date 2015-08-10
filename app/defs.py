@@ -71,10 +71,10 @@ def pretty_print(vec_list):
 def extract_points(best_list):
     cats = []
     sims = []
+    urls = []
     for i in best_list:
         cats.append(i[0])
         sims.append(i[1])
-    return cats, sims
-
-
+        urls.append("https://www.google.com/search?q=" + i[0].replace(" ", "+"))
+    return cats, sims, urls
 
